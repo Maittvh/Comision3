@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Mulish:wght@200..1000&display=swap');
+
+
+body {
+    background-color: #b8e5e6;
+    font-family: "Mate", serif;
+    font-size:20px;
+    }
+
+header {
+    background-color: #07166a;
+    width: 100%;
+    height: 356px;
+
+
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+
+}
+ 
+img{
+    width: 90%;
+    display: block;
+    margin: auto;
+
+}
+
+
+
+
+ul,h2,h1 {
+    font-family: "Mulish", sans-serif;
+    color: #4f6eed;
+    text-transform: capitalize;
+    }
+
+h2,h1 {
+        text-align: right;
+        font-weight: 800;
+        color: #4f6eed;
+        font-size: 50px;
+    }
+    
+h1 {
+    text-align:center;
+    }
+
+
+
+
+a {
+text-decoration: none;
+color: black;
+}
+
+section{
+    font-size: 25px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+#vinculo {
+    color: #ede024;
+}
+
+#vinculo:hover{
+    font-style: italic;
+    
+}
+
+#miColor{
+color: #ede024;
+background-color: #07166a;
+}
+
+.miSubrayado {
+    text-decoration:#4f6eed dotted underline;
+}
